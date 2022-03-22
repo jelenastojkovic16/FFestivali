@@ -1,0 +1,310 @@
+.GlavniDiv
+{
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    
+    justify-content:baseline;
+    /*background-color: antiquewhite;*/
+   /* background-image:  linear-gradient(rgb(46, 83, 73), rgb(71, 69, 69), black);*/
+   /*background-image: url("https://s.france24.com/media/display/dfb73476-0fbc-11eb-8981-005056bf87d6/w:1280/p:16x9/000_1R15O1.webp");
+   background-image: url("https://static.vecteezy.com/system/resources/previews/001/227/422/large_2x/cinema-movie-theater-with-blank-screen-and-red-seat-vector.jpg");*/
+   background-image: url(https://static.vecteezy.com/system/resources/previews/001/214/064/large_2x/rows-of-cinema-seats-on-black-vector.jpg);
+   background-size: 1500px 720px;
+ background-color: #cccccc;
+
+ 
+    
+    width: 1500px;
+    height: 720px;
+    
+}
+.divDugmici
+{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    width: 40%;
+}
+a{
+    width: 100%;
+}
+.dugmici1
+{
+    width:60%;
+    font-size: x-large;
+    margin-top: 25px;
+    /*flex-wrap: wrap;
+    display: flex;*/
+    
+    box-shadow: 0 8px 16px 0 rgba(102, 78, 26,0.19), 0 6px 20px 0 rgb(102, 78, 26,0.19);
+    border:none;
+   border-radius: 7px;
+    color:rgb(94, 94, 62);
+    background-color: rgb(2, 2, 2);
+}
+.dugmici2
+{
+    width:60%;
+    font-size: x-large;
+    margin-top: 25px;
+    
+
+    /*background-color: rgb(139, 124, 84);
+    border:none;
+    border-radius: 10px;*/
+
+    box-shadow: 0 8px 16px 0 rgba(102, 78, 26, 0.19), 0 6px 20px 0 rgb(102, 78, 26,0.19);
+    border:none;
+   border-radius: 7px;
+    color:rgb(94, 94, 62);
+    background-color: rgb(2, 2, 2);
+
+    /*flex-wrap: wrap;
+    display: flex;*/
+}
+
+.lNaslov
+{
+    margin-top: 30px;
+    
+    height: 150px;
+    font-size: 100px;
+    color: rgb(199, 138, 17);
+    
+    font-style: oblique;
+   /* background-color: black;*/
+}
+
+.slika1div
+{
+    display:grid;
+    justify-content: center;
+}
+
+.images1
+{
+    width: 400px;
+    height: 400pxs;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.images2
+{
+    width: 400px;
+    height: 400pxs;
+    display: flex;
+    padding-bottom: 20px;
+    
+
+}
+
+.lbl1
+{
+    color:#10a2a5;
+    font-weight: bold;
+    
+}
+.lbl2
+{
+    color:rgb(207, 5, 5);
+    font-weight: bold;
+    
+}
+
+
+.divGrad
+{
+    padding-top: 10px;
+}
+
+.Fdiv
+{
+    background-image:  linear-gradient(rgb(255, 255, 255),rgb(178, 179, 173), rgba(112, 232, 236, 0.459));
+    /*background-image:radial-gradient(rgb(255, 255, 255),rgb(178, 179, 173), rgba(112, 232, 236, 0.459));*/
+
+}
+
+table, th, tr, td
+{
+    border: 1px solid black;
+}
+table
+{
+    border-collapse:collapse;
+    
+}
+
+.brKarata0,.brKarata1, .brKarata2, .brKarata3, .brKarata4, .brKarata5, .brKarata6
+{
+    width: 30px;
+}
+
+.divZaOpis
+{
+    margin-left: 250px;
+    margin-right: 250px;
+    width: fit-content;
+}
+
+.repertoar
+{
+   /* position: relative;
+    width: 85px;
+    height: 55px;
+    margin-top: 20px;
+    margin-left: 450px
+    background-color: rgba(90, 90, 90, 0.082);
+    border-color:black ;*/
+    background-color: #1b1b1b;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 250px;
+  margin-top:20px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.divZaPrikazFestivala
+{
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.divZaSveDane
+{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.tabela
+{
+    width: 100%;
+    background-color: rgb(190, 222, 233);
+
+
+    
+      
+    
+        /*flex-direction: column;
+    
+        border-radius: 17px;
+    
+        border: 2px ridge #000000;*/
+}
+
+.divZaDruge
+{
+    padding:20px;
+}
+
+.divPrikaziRez
+{
+    flex-direction: column;
+    display: flex;
+   
+    width: 120px;
+    padding: 50px;
+}
+.divZaDan
+{
+
+
+    padding: 10px;
+    
+       /* display: flex;*/
+    
+        flex-direction: column;
+    
+        border-radius: 17px;
+    
+        border: 2px ridge #000000;
+    width: 80%;
+    background-color:rgba(105, 105, 105, 0.507);
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    
+}
+
+.row
+{
+    background-color: rgba(255, 228, 196, 0.541);
+}
+
+.divFormular
+{
+    padding-top: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dNazad
+{
+    background-color: #cccccc00;
+    border: none;
+    color:rgb(172, 42, 42);
+}
+.brKomp
+{
+    width: 30px;
+}
+@media only screen and (max-width: 1000px){
+    .divZaPrikazFestivala{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.Pretrazi
+{
+    background-color: #1b1b1b;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top:20px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.txbPretrazi
+{
+    margin-left: 5px;
+    
+}
+
+.dugmeCena, .dugmeKomplet, .nast, .rezervisi, .btnObrisi, .btnIzmeni, .btnPotvrdi
+{
+    background-color:rgb(212, 196, 212);
+    border-color: #452749;
+    border-radius: 5px;
+}
+
+
+
+ 
